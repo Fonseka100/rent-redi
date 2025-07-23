@@ -2,7 +2,7 @@
 
 User management system with OpenWeatherMap integration and Firebase.
 
-## How to Run Your Code (Step-by-step Instructions)
+## How to Run (Step-by-step Instructions)
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -60,7 +60,7 @@ I implemented a full-stack user management system with the following architectur
 
 The solution follows REST principles and implements proper separation between frontend and backend concerns.
 
-## What You Implemented (List of Completed Features)
+## Implementations
 
 ### Backend Features
 - ✅ Complete CRUD operations for users
@@ -85,7 +85,7 @@ The solution follows REST principles and implements proper separation between fr
 - `DELETE /api/users/:id` - Delete user
 - `GET /api/users/:id/weather` - Get weather for user location
 
-## Any Assumptions You Made
+## Assumptions
 
 1. **Firebase Setup**: Assumed Firebase project is already configured with Firestore enabled
 2. **API Keys**: Assumed OpenWeatherMap API key is available and valid
