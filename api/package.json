@@ -1,0 +1,39 @@
+{
+  "name": "rentredi-user-management-api",
+  "version": "1.0.0",
+  "description": "Backend API for user management system with OpenWeatherMap integration and Firebase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "server": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.0",
+    "joi": "^17.9.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.4"
+  },
+  "keywords": [
+    "api",
+    "user-management",
+    "firebase",
+    "openweathermap",
+    "express",
+    "nodejs"
+  ],
+  "author": "Development Team",
+  "license": "MIT"
+}
