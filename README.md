@@ -28,7 +28,6 @@ npm start
 # Backend Setup
 cd api
 npm install
-# Create .env file with your configuration
 npm start
 
 # Frontend Setup (in a new terminal)
@@ -39,7 +38,7 @@ npm start
 
 ### Environment Configuration
 
-Create a `.env` file in the `api/` folder:
+Create a `.env` file in the `api/` folder (or just run the project):
 
 ```env
 PORT=8080
@@ -91,7 +90,6 @@ The solution follows REST principles and implements proper separation between fr
 2. **API Keys**: Assumed OpenWeatherMap API key is available and valid
 3. **User Data**: Assumed only US zip codes
 4. **Browser Support**: Assumed modern browser support for ES6+ features
-5. **Network**: Assumed stable internet connection for API calls
 6. **Port Availability**: Assumed ports 3000 (frontend) and 8080 (backend) are available
 
 ## Testing
