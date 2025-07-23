@@ -6,7 +6,7 @@ const config = {
   nodeEnv: process.env.NODE_ENV || 'development',
   
   // API Keys
-  openWeatherApiKey: process.env.OPENWEATHER_API_KEY || '7afa46f2e91768e7eeeb9001ce40de19',
+  openWeatherApiKey: process.env.OPENWEATHER_API_KEY,
   
   // OpenWeatherMap API
   openWeatherMap: {

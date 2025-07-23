@@ -3,3 +3,5 @@ node_modules/
 client/node_modules/
 api/node_modules/
 coverage/
+api/.env
+api/firebase-service-account.json

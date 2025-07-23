@@ -28,6 +28,7 @@ npm start
 # Backend Setup
 cd api
 npm install
+# create .env file
 npm start
 
 # Frontend Setup (in a new terminal)
@@ -38,7 +39,7 @@ npm start
 
 ### Environment Configuration
 
-Create a `.env` file in the `api/` folder (or just run the project):
+Create a `.env` file in the `api/` folder:
 
 ```env
 PORT=8080
